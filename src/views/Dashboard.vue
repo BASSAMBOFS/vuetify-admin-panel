@@ -70,7 +70,7 @@
                             class="elevation-1"
                     >
                         <template v-slot:item.action="">
-                            <v-btn color="success" outlined small shaped >View</v-btn>
+                            <v-btn color="warning" outlined small shaped >View</v-btn>
                         </template>
                     </v-data-table>
                 </v-card>
