@@ -85,6 +85,7 @@
                 </v-btn>
               </v-toolbar>
             </template>
+            <!-- eslint-disable-next-line -->
             <template v-slot:item.action="">
               <v-btn color="warning" outlined small shaped>View</v-btn>
             </template>
