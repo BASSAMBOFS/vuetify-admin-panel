@@ -64,21 +64,21 @@
           <v-chip link>
             <v-badge dot bottom color="green" offset-y="10" offset-x="10">
               <v-avatar size="40">
-                <v-img src="https://randomuser.me/api/portraits/women/81.jpg" />
+                <v-img src="../assets/bsm.png" />
               </v-avatar>
             </v-badge>
-            <span class="ml-3">Jane Smith</span>
+            <span class="ml-3">Bassam Boufous</span>
           </v-chip>
         </span>
       </template>
       <v-list width="250" class="py-0">
         <v-list-item two-line>
           <v-list-item-avatar>
-            <img src="https://randomuser.me/api/portraits/women/81.jpg" />
+            <img src="../assets/bsm.png" />
           </v-list-item-avatar>
 
           <v-list-item-content>
-            <v-list-item-title>Jane Smith</v-list-item-title>
+            <v-list-item-title>Bassam Boufous</v-list-item-title>
             <v-list-item-subtitle>Logged In</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
@@ -109,36 +109,36 @@ export default {
       ],
       items: [
         {
-          avatar: "https://cdn.vuetifyjs.com/images/lists/1.jpg",
-          title: "Brunch this weekend?",
-          subtitle: `<span class="text--primary">Ali Connors</span> &mdash; I'll be in your neighborhood doing errands this weekend. Do you want to hang out?`,
+          avatar: require("../assets/pdp/imam.png"),
+          title: "Bug found !",
+          subtitle: `<span class="text--primary">Imam Harir</span> &mdash; I wrote this code earlier in the summer before v-card-media was depreciated in favour of`,
         },
         { divider: true, inset: true },
         {
-          avatar: "https://cdn.vuetifyjs.com/images/lists/2.jpg",
-          title: 'Summer BBQ <span class="grey--text text--lighten-1">4</span>',
-          subtitle: `<span class="text--primary">to Alex, Scott, Jennifer</span> &mdash; Wish I could come, but I'm out of town this weekend.`,
+          avatar: require("../assets/pdp/david.png"),
+          title: "MR migration",
+          subtitle: `<span class="text--primary">David Briand</span> &mdash; MR migration paypal prête à être review`,
         },
         { divider: true, inset: true },
         {
-          avatar: "https://cdn.vuetifyjs.com/images/lists/3.jpg",
-          title: "Oui oui",
+          avatar: require("../assets/pdp/romain.png"),
+          title: "RC1",
           subtitle:
-            '<span class="text--primary">Sandra Adams</span> &mdash; Do you have Paris recommendations? Have you ever been?',
+            '<span class="text--primary">Romain Gomes</span> &mdash; Voici le lien pour voir le contenu du sprint',
         },
         { divider: true, inset: true },
         {
-          avatar: "https://cdn.vuetifyjs.com/images/lists/4.jpg",
-          title: "Birthday gift",
+          avatar: require("../assets/pdp/gabriel.png"),
+          title: "Ticket FF-12730",
           subtitle:
-            '<span class="text--primary">Trevor Hansen</span> &mdash; Have any ideas about what we should get Heidi for her birthday?',
+            '<span class="text--primary">Gbriel De Almeida</span> &mdash; Je regardais celui-là justement',
         },
         { divider: true, inset: true },
         {
-          avatar: "https://cdn.vuetifyjs.com/images/lists/5.jpg",
-          title: "Recipe to try",
+          avatar: require("../assets/pdp/abdo.png"),
+          title: "Problém à reglé",
           subtitle:
-            '<span class="text--primary">Britta Holt</span> &mdash; We should eat this: Grate, Squash, Corn, and tomatillo Tacos.',
+            '<span class="text--primary">Abdenassir Ouelhanafi</span> &mdash; Yes c est bon de mon côté merci',
         },
       ],
     };
