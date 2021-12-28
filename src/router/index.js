@@ -9,6 +9,11 @@ const routes = [
     name: 'dashboard',
     component: () => import('./../views/Dashboard')
   },
+  {
+    path: '/campagne-promotool',
+    name: 'Campagne Promotool',
+    component: () => import('./../views/CampagnePromotool')
+  },
 ]
 
 const router = new VueRouter({
