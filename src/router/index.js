@@ -14,6 +14,11 @@ const routes = [
     name: 'Campagne Promotool',
     component: () => import('./../views/CampagnePromotool')
   },
+  {
+    path: '/programation-promotool',
+    name: 'Programation Promotool',
+    component: () => import('./../views/ProgramationPromotool')
+  },
 ]
 
 const router = new VueRouter({
